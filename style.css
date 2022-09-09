@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  line-height: 1.2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'League Spartan', sans-serif;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+main {
+  padding: 2em;
+  max-width: 360px;
+}
+
+.title > h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 1em;
+}
+
+h1 + p {
+  color: hsl(303, 10%, 53%);
+  padding-top: 1em;
+}
+
+.ratings {
+  padding-top: 1.7em;
+}
+
+.stars-reviews {
+  background: hsl(300, 24%, 96%);
+  margin: 1em;
+  padding: 0.8em 0.9em;
+  border-radius: 0.6em;
+}
+
+.stars-reviews p {
+  color: hsl(300, 43%, 22%);
+  font-weight: bold;
+}
+
+.stars {
+  margin-bottom: 0.3em;
+}
+
+.img-star {
+  width: 5%;
+  
+}
+
+.img-buyer {
+  width: 15%;
+  border-radius: 50%;
+}
+
+.testimonial-reviews {
+  padding-top: 1em;
+}
+
+.testimonial-review {
+  background: hsl(300, 43%, 22%);
+  margin: 0.7em;
+  border-radius: 0.7em;
+  padding: 1.3em 1.8em;
+  color: white;
+  text-align: left;
+}
+
+.testimonial-info {
+  display: flex;
+  align-items: center;
+  padding-top: 1em;
+}
+
+.testimonial-review > p {
+  padding: 1em 0;
+  color: hsl(300, 24%, 96%);
+}
+
+.testimonial-info div {
+  margin-left: 1.3em;
+}
+
+.testimonial-info h3 {
+  color: hsl(300, 24%, 96%);
+}
+
+.testimonial-info p {
+  color: hsl(333, 80%, 67%);
+}
+
+@media(min-width: 1000px) {
+  
+  main {
+    min-width: 1020px;
+    text-align: left;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .testimonial-reviews {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    justify-content: space-between;
+  }
+
+  .testimonial-review2 {
+    margin-top: 2rem;
+  }
+
+  .testimonial-review3 {
+    margin-top: 3rem;
+  }
+
+  .title {
+    width: 400px;
+    text-align: start;
+    margin: 0 auto;
+  }
+
+  .title h1 {
+    font-size: 3em;
+    font-weight: 700;
+  }
+
+  .title p {
+    font-size: 1em;
+  }
+
+  .stars-reviews {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .stars-reviews2 {
+    margin-left: 4rem;
+  }
+
+  .stars-reviews3 {
+    margin-left: 6rem;
+  }
+
+  .img-star {
+    width: 15%;
+  }
+}
